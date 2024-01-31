@@ -7,7 +7,10 @@ public class Main {
         Vehicle vehicle = new Vehicle("Porsche", "Panamara", 2024);
         vehicle.givenInfo();
 
-        Vehicle car = new Car("VW", "Golf", 2014, 4);
+        Car car = new Car("VW", "Golf", 2014, 4);
         car.givenInfo();
+
+        Motorcycle motorcycle = new Motorcycle("BMW", "S 1000 RR", 2022, "Sportbike");
+        motorcycle.givenType();
     }
 }
